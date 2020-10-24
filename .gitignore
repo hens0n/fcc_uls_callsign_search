@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# fcc_uls_callsign_search
+temp/
+l_amat.zip
+callsign_output.txt
