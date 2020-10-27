@@ -57,8 +57,39 @@ def print_menu():
     print(' 0: Exit')
     print(' 1: Search for Callsign')
     print(' 2: Process callsign_input.txt')
-    print(' 3: SQL Query')
+    # print(' 3: SQL Query')
     print('')
+
+def search(db, input):
+    rtn = ''
+    cs = callsign.Callsign(input)
+    rtn += 'Callsign: {}\n'.format(cs.callsign)
+    rtn += '==================\n'
+    rtn += 'Group: {}, Available To: {} \n\n'.format(cs.group,cs.available_to)
+    amateur = db.select_amateur(cs.callsign)
+    comments = db.select_comments(cs.callsign)
+    entity = db.select_entity(cs.callsign)
+    history = db.select_history(cs.callsign)
+    if amateur:
+        rtn += 'Amateur: \n'
+        rtn += '------------------\n'
+        rtn += amateur +'\n'
+    if comments:
+        rtn += 'Comments: \n'
+        rtn += '------------------\n'
+        rtn += comments +'\n'
+    if entity:
+        rtn += 'Entity: \n'
+        rtn += '------------------\n'
+        rtn += entity +'\n'
+    if history:
+        rtn += 'History: \n'
+        rtn += '------------------\n'
+        rtn += history +'\n'
+
+    return rtn
+
+
 
 def main():
     ULSZipCheck()
@@ -72,15 +103,19 @@ def main():
         if option == '0':
             menu = False
         if option == '1':
-            callsign_input = input("Callsign: ")
-            cs = callsign.Callsign(callsign_input)
-            rows = db.select_history(cs.callsign)
-            for row in rows:
-                print(row)
+            callsign_input = input("Callsign?: ")
+            print()
+            print()
+            print(search(db,callsign_input))
+
         if option == '2':
             output_file= open('callsign_output.txt','w')
             with open('callsign_input.txt', 'r') as reader:
                 for line in reader.readlines():
+                    search_results = search(db,line.upper().strip())
+                    print(search_results)
+                    output_file.write(search_results)
+            output_file.close()
                     # print(line + '>>>>>')
                     # output_file.write(select_callsign(db_con,line.upper().strip())+'\n')
         print()

@@ -74,16 +74,16 @@ class ULSDatabase(object):
         db_cursor.execute("CREATE TABLE "+table_name+" ("+columns+");") 
 
     def ingest_dat_files(self):
-        # ingest_dat_file(db_connection,'temp/AM.dat',columns_am,'AM')
-        # ingest_dat_file(db_connection,'temp/CO.dat',columns_co,'CO')
-        # ingest_dat_file(db_connection,'temp/EN.dat',columns_en,'EN')
-        # ingest_dat_file(db_connection,'temp/HD.dat',columns_hd,'HD')
+        print('Ingesting dat files')
+        self.ingest_dat_file('AM.dat',columns_am,'AM')
+        self.ingest_dat_file('CO.dat',columns_co,'CO')
+        self.ingest_dat_file('EN.dat',columns_en,'EN')
+        # self.ingest_dat_file('HD.dat',columns_hd,'HD')
         self.ingest_dat_file('HS.dat',columns_hs,'HS')
-        # ingest_dat_file(db_connection,'temp/LA.dat',columns_la,'LA')
-        # ingest_dat_file(db_connection,'temp/SC.dat',columns_sc,'SC')
-        # ingest_dat_file(db_connection,'temp/SF.dat',columns_sf,'SF')
-        print('dat files ingested')
-        print('----')
+        # self.ingest_dat_file('LA.dat',columns_la,'LA')
+        # self.ingest_dat_file('SC.dat',columns_sc,'SC')
+        # self.ingest_dat_file('SF.dat',columns_sf,'SF')
+        print('Ingesting dat files complete')
 
     def ingest_dat_file(self,dat_file,columns,table_name):
         
@@ -103,17 +103,66 @@ class ULSDatabase(object):
         self.db_connection.commit()
 
 
+    def select_amateur(self,callsign):
+        db_cursor = self.db_connection.cursor()
+        db_cursor.execute("Select operator_class,previous_callsign from AM "
+            "WHERE callsign =?;", (callsign,))
+        rows = db_cursor.fetchall()
+        
+        if(rows):
+            rtn = ''
+            for row in rows:
+                rtn += 'Operator Class: {},Previous Callsign: {}\n'.format(row[0],row[1])
+            return rtn
+        else:
+            return None
+
+
+    def select_comments(self,callsign):
+        db_cursor = self.db_connection.cursor()
+        db_cursor.execute("Select comment_date,description from CO "
+            "WHERE callsign =?;", (callsign,))
+        rows = db_cursor.fetchall()
+        
+        if(rows):
+            rtn = ''
+            for row in rows:
+                rtn += '{} Comment: {}\n'.format(row[0],row[1])
+            return rtn
+        else:
+            return None
+
+
+    def select_entity(self,callsign):
+        db_cursor = self.db_connection.cursor()
+        db_cursor.execute("Select entity_name,city,state,frn from EN "
+            "WHERE call_sign =?;", (callsign,))
+        rows = db_cursor.fetchall()
+        
+        if(rows):
+            rtn = ''
+            for row in rows:
+                rtn += 'FRN: {}, Name:{}, {},{}\n'.format(row[3],row[0],row[1],row[2])
+            return rtn
+        else:
+            return None
+
+
     def select_history(self,callsign):
         db_cursor = self.db_connection.cursor()
         # db_cursor.execute("SELECT callsign,log_date,code FROM HS WHERE callsign=?", (callsign,))
-        db_cursor.execute("Select callsign,log_date,code,substr(log_date,7,4)"
+        db_cursor.execute("Select log_date,code,substr(log_date,7,4)"
             "||substr(log_date,1,2)||substr(log_date,4,2) as tdate from HS "
             "WHERE callsign =? ORDER BY tdate DESC;", (callsign,))
         rows = db_cursor.fetchall()
-        return rows
-        # if(rows):
-        #     for row in rows:
-        #         print(row)
-        #         print('{}: {} {}'.format(callsign,row[2],row[1]))
-        #         # rtn = '{}: {} {}'.format(callsign,row[2],row[1])
+        
+        if(rows):
+            rtn = ''
+            for row in rows:
+                rtn += '{} {}\n'.format(row[0],row[1])
+            return rtn
+        else:
+            return None
+
+    
 
