@@ -151,15 +151,16 @@ class ULSDatabase(object):
     def select_history(self,callsign):
         db_cursor = self.db_connection.cursor()
         # db_cursor.execute("SELECT callsign,log_date,code FROM HS WHERE callsign=?", (callsign,))
-        db_cursor.execute("Select log_date,code,substr(log_date,7,4)"
+        db_cursor.execute("Select log_date,code,EN.entity_name,substr(log_date,7,4) "
             "||substr(log_date,1,2)||substr(log_date,4,2) as tdate from HS "
-            "WHERE callsign =? ORDER BY tdate DESC;", (callsign,))
+            "INNER JOIN EN ON EN.unique_system_identifier = HS.unique_system_identifier "
+            "WHERE HS.callsign =? ORDER BY tdate DESC;", (callsign,))
         rows = db_cursor.fetchall()
         
         if(rows):
             rtn = ''
             for row in rows:
-                rtn += '{} {}\n'.format(row[0],row[1])
+                rtn += '{} {}, {}\n'.format(row[0],row[1],row[2])
             return rtn
         else:
             return None

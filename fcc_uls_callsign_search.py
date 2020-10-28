@@ -1,3 +1,12 @@
+# FCC ULS Callsign Search
+
+# Author
+# Repostistory
+# Callsign
+
+
+
+
 
 import os
 import time
@@ -47,7 +56,7 @@ def ULSZipCheck():
         if time_difference > 604800: # 604800 one week in seconds
             get_ULS_Zip()
     else:
-        Print('Recent ULS Zip file located.')
+        print('ULS Zip file not found.')
         get_ULS_Zip()
 
     unzip_ULS('l_amat.zip')
@@ -66,10 +75,12 @@ def search(db, input):
     rtn += 'Callsign: {}\n'.format(cs.callsign)
     rtn += '==================\n'
     rtn += 'Group: {}, Available To: {} \n\n'.format(cs.group,cs.available_to)
+
     amateur = db.select_amateur(cs.callsign)
     comments = db.select_comments(cs.callsign)
     entity = db.select_entity(cs.callsign)
     history = db.select_history(cs.callsign)
+
     if amateur:
         rtn += 'Amateur: \n'
         rtn += '------------------\n'
