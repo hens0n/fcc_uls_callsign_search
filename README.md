@@ -57,6 +57,8 @@ History:
 05/25/2016 LIEXP , Tate, Harold L
 ```
 
+Use Option 2 to run a search for each callsign in [callsign_input.txt](callsign_input.txt)
+
 License
 ----------------------
 MIT License
