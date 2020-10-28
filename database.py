@@ -1,3 +1,12 @@
+# FCC ULS Callsign Search
+
+# Author: Jacob Henson
+# Repository: https://github.com/cyberphilia/fcc_uls_callsign_search
+# Callsign:W4NTS
+# Quick Start: python .\fcc_uls_callsign_search.py
+
+
+
 import csv, sqlite3
 # https://www.fcc.gov/wireless/data/public-access-files-database-downloads
 # AM – Amateur
@@ -105,14 +114,15 @@ class ULSDatabase(object):
 
     def select_amateur(self,callsign):
         db_cursor = self.db_connection.cursor()
-        db_cursor.execute("Select operator_class,previous_callsign from AM "
-            "WHERE callsign =?;", (callsign,))
+        db_cursor.execute("Select operator_class,previous_callsign,EN.entity_name from AM "
+            "INNER JOIN EN ON EN.unique_system_identifier = AM.unique_system_identifier "
+            "WHERE AM.callsign =?;", (callsign,))
         rows = db_cursor.fetchall()
         
         if(rows):
             rtn = ''
             for row in rows:
-                rtn += 'Operator Class: {},Previous Callsign: {}\n'.format(row[0],row[1])
+                rtn += 'Operator Class: {},Previous Callsign: {}, Entity:{}\n'.format(row[0],row[1],row[2])
             return rtn
         else:
             return None

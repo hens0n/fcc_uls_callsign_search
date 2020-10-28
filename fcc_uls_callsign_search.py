@@ -1,9 +1,9 @@
 # FCC ULS Callsign Search
 
-# Author
-# Repostistory
-# Callsign
-
+# Author: Jacob Henson
+# Repository: https://github.com/cyberphilia/fcc_uls_callsign_search
+# Callsign:W4NTS
+# Quick Start: python .\fcc_uls_callsign_search.py
 
 
 

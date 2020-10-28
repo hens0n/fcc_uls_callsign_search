@@ -1,6 +1,8 @@
 FCC ULS Callsign search
 =======================
-Python scripts to download a local copy of the FCC Universal Licensing System and run search against the local copy.  fcc_uls_callsign_search.py will download a copy of the ULS and overwrite it if the zip is more than a week old.
+Python scripts to download a local copy of the [FCC Universal Licensing System](https://www.fcc.gov/wireless/systems-utilities/universal-licensing-system) and run searches against the local copy.  fcc_uls_callsign_search.py will download a copy of the [ULS](https://www.fcc.gov/wireless/systems-utilities/universal-licensing-system) and overwrite it if the zip is more than a week old.
+
+I wrote this script to monitor vanity callsigns I am interested in.
 
 
 Assumptions
@@ -40,8 +42,8 @@ Group: C, Available To: Technician, Tech Plus. & General Class
 
 Amateur:
 ------------------
-Operator Class: E,Previous Callsign:
-Operator Class: T,Previous Callsign: KO4IBG
+Operator Class: E,Previous Callsign: , Entity:Tate, Harold L
+Operator Class: T,Previous Callsign: KO4IBG, Entity:Henson, Jacob B
 
 Entity:
 ------------------
@@ -58,3 +60,7 @@ History:
 License
 ----------------------
 MIT License
+
+Author
+----------------------
+Jacob Henson (W4NTS)
