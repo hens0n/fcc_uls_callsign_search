@@ -53,6 +53,7 @@ columns_sc = 'record_type,unique_system_identifier,uls_file_number,ebf_number,\
 columns_sf = 'record_type,unique_system_identifier,uls_file_number,ebf_number,\
         callsign,special_condition_type,special_condition_code,status_code,\
         status_date'
+columns_hs_codes ='code,description'
 
 
 class ULSDatabase(object):
@@ -77,6 +78,7 @@ class ULSDatabase(object):
         self.create_table('LA', columns_la)
         self.create_table('SC', columns_sc)
         self.create_table('SF', columns_sf)
+        self.create_table('HS_CODES', columns_hs_codes)
 
     def create_table(self,table_name,columns):
         db_cursor = self.db_connection.cursor()
@@ -84,14 +86,15 @@ class ULSDatabase(object):
 
     def ingest_dat_files(self):
         print('Ingesting dat files')
-        self.ingest_dat_file('AM.dat',columns_am,'AM')
-        self.ingest_dat_file('CO.dat',columns_co,'CO')
-        self.ingest_dat_file('EN.dat',columns_en,'EN')
-        # self.ingest_dat_file('HD.dat',columns_hd,'HD')
-        self.ingest_dat_file('HS.dat',columns_hs,'HS')
-        # self.ingest_dat_file('LA.dat',columns_la,'LA')
-        # self.ingest_dat_file('SC.dat',columns_sc,'SC')
-        # self.ingest_dat_file('SF.dat',columns_sf,'SF')
+        self.ingest_dat_file(self.dat_file_path+'AM.dat',columns_am,'AM')
+        self.ingest_dat_file(self.dat_file_path+'CO.dat',columns_co,'CO')
+        self.ingest_dat_file(self.dat_file_path+'EN.dat',columns_en,'EN')
+        # self.ingest_dat_file(self.dat_file_path+'HD.dat',columns_hd,'HD')
+        self.ingest_dat_file(self.dat_file_path+'HS.dat',columns_hs,'HS')
+        self.ingest_dat_file('history_codes.dat',columns_hs_codes,'HS_CODES')
+        # self.ingest_dat_file(self.dat_file_path+'LA.dat',columns_la,'LA')
+        # self.ingest_dat_file(self.dat_file_path+'SC.dat',columns_sc,'SC')
+        # self.ingest_dat_file(self.dat_file_path+'SF.dat',columns_sf,'SF')
         print('Ingesting dat files complete')
 
     def ingest_dat_file(self,dat_file,columns,table_name):
@@ -101,7 +104,7 @@ class ULSDatabase(object):
         column_count = len(columns.split(','))
         question_marks ='?,'*(column_count-1)
         question_marks += '?'
-        with open(self.dat_file_path+dat_file,'r') as dat_file_object: # `with` statement available in 2.5+
+        with open(dat_file,'r') as dat_file_object: # `with` statement available in 2.5+
             dr = csv.reader(dat_file_object,delimiter='|')
             
             for i in dr:
@@ -161,16 +164,17 @@ class ULSDatabase(object):
     def select_history(self,callsign):
         db_cursor = self.db_connection.cursor()
         # db_cursor.execute("SELECT callsign,log_date,code FROM HS WHERE callsign=?", (callsign,))
-        db_cursor.execute("Select log_date,code,EN.entity_name,substr(log_date,7,4) "
+        db_cursor.execute("Select log_date,HS.code,EN.entity_name,HS_CODES.description,EN.frn,substr(log_date,7,4) "
             "||substr(log_date,1,2)||substr(log_date,4,2) as tdate from HS "
-            "INNER JOIN EN ON EN.unique_system_identifier = HS.unique_system_identifier "
+            "LEFT JOIN EN ON EN.unique_system_identifier = HS.unique_system_identifier "
+            "LEFT JOIN HS_CODES on HS_CODES.code = TRIM(HS.code) "
             "WHERE HS.callsign =? ORDER BY tdate DESC;", (callsign,))
         rows = db_cursor.fetchall()
         
         if(rows):
             rtn = ''
             for row in rows:
-                rtn += '{} {}, {}\n'.format(row[0],row[1],row[2])
+                rtn += 'Date: {}, FRN: {}, Entity: {}, {}({})\n'.format(row[0],row[4],row[2],row[3],row[1])
             return rtn
         else:
             return None

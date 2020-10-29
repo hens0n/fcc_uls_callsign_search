@@ -78,7 +78,7 @@ def search(db, input):
 
     amateur = db.select_amateur(cs.callsign)
     comments = db.select_comments(cs.callsign)
-    entity = db.select_entity(cs.callsign)
+    # entity = db.select_entity(cs.callsign)
     history = db.select_history(cs.callsign)
 
     if amateur:
@@ -89,10 +89,10 @@ def search(db, input):
         rtn += 'Comments: \n'
         rtn += '------------------\n'
         rtn += comments +'\n'
-    if entity:
-        rtn += 'Entity: \n'
-        rtn += '------------------\n'
-        rtn += entity +'\n'
+    # if entity:
+    #     rtn += 'Entity: \n'
+    #     rtn += '------------------\n'
+    #     rtn += entity +'\n'
     if history:
         rtn += 'History: \n'
         rtn += '------------------\n'
@@ -105,6 +105,7 @@ def search(db, input):
 def main():
     ULSZipCheck()
    
+    # db = database.ULSDatabase('uls.db','temp/')
     db = database.ULSDatabase(':memory:','temp/')
 
     menu = True

@@ -1,0 +1,465 @@
+10MCOM|10 MHz Geographic Overlap Review Completed
+172COM|Review of Channel 172 Completed
+20COM|2065/2079 Review Completed
+38GOFF|Offlined For 38.6 - 40 GHz Review.
+602COM|Form 602 Review Completed
+602OFF|Offlined for Form 602 Review
+603TCN|Converted from a 603T application.
+700COM|Offlined for 700 MHz Review Completed
+702COM|700 MHz Canadian Treaty Compliance completed
+703COM|700 MHz Mexican Treaty Compliance completed
+704COM|Canadian/Mexican border check completed
+72CCOM|72-76 MHz Coordination Completed (Channel 4/5)
+72OCOM|72-76 MHz Coordination Completed (Op Fixed)
+800COM|Completed 800 MHz Band Reconfiguration Review
+929COM|929.0125-929.4875 /MHz review completed
+ACSCOM|Associated Call Sign Review Completed
+ADDCOM|Manual Address Correction Complete
+AFCOM|AFTRCC Review Completed
+AFRCOM|Application for Review Consideration Completed
+AFROFF|Offlined for Application for Review Consideration
+ALCOM|Alert List Review Completed
+ALOCOM|Already Occurred Review Completed
+ALOFF|Offlined for Alert List Review
+AMACOM|Review of Trustee Change Completed
+AMSCOM|AM Station Review Completed
+ANATRM|Antenna Terminated Through Auto Term Process
+AOCCOM|CA county coordination review completed
+AOCOM|Alien Ownership Review Completed
+AONCOM|Area of Operation = N or U review completed
+AOOFF|Offlined for Alien Ownership Review
+AOPCOM|"Coordinate review (N/Line A, E/Line C) completed"
+APACC|Application Accepted
+APCON|Application Consented
+APCRTC|Litigation or Court Action Closed
+APDIS|Application Dismissed
+APDIS1|Application Dismissed due to Aged Return
+APDIS2|Application Dismissed due to Parent Facility Expir
+APGRP|Application Granted in Part
+APGRT|Application Granted
+APOCOM|Coser Spec Cond Review (155.475 MHz) completed
+APPCOM|Change of applicant type code review completed
+APPOFF|Offlined change of applicant type code review
+APRTN|Application Returned
+APRVCC|Canceled Coser Application Review Completed
+APRVIC|Canceled Iracs Application Review Completed
+APTR2|Application Set to Returned Status.
+APWD|Application Withdrawn
+ARECOM|Area of Operation Review Completed
+ASCCOM|Associated Call Sign Review Completed
+ASROFF|Offlined for ASR review
+ATCOM|Attachment Review Completed
+ATOFF|Offlined for Attachment Review
+ATRCOM|Applicant Type Review Completed
+ATTCOM|Attachment Received
+AUTCOM|Auto Termination Review Completed
+AUTHPC|Consent Authorization Printed
+AUTHPR|Authorization Printed
+AUTHRP|Reference Copy Authorization Printed
+AUTOFF|Offlined for Auto Termination Review
+AUTRLP|Registration Letter Printed
+BARCOM|Station transmit loc outside CDBS station complete
+BAROFF|Station transmit loc outside CDBS parent station.
+BIDCOM|Bidding Credit data Review Completed
+BILCOM|Offline for Billing Completed
+BILOFF|Offlined for Billing
+BKPCOM|Bankruptcy Review Completed
+BLDCOM|Buildout Notification Review Completed
+BNDCOM|Bandwidth Review Completed.
+BNDOFF|Bandwidth Review (Coser/Irac Major/Minor Failed).
+BOCOM|NT/EX Buildout Untimely Filing Review Complete
+BOOFF|Offlined for NT/EX Buildout Untimely Filing Review
+BORDCM|Border Coordinate Review Completed
+BORDOF|Offlined for Border Coordinate Review
+BQCOM|Basic Qualification Review Completed
+BQOFF|Offlined for Basic Qualification Review
+BRECOM|BR/ED Review Completed
+CAECOM|Review of Coser Errors Completed
+CAEOFF|Review Coser Errors
+CANCOM|Manual Coser Review Completed
+CANCSE|Cancel Coser Sent to Canada
+CANFRC|Forced Coser Review Completed
+CANOSE|On-Air Coser Sent to Canada
+CANRE|Received from Canada
+CANRSE|Recon Coser Sent to Canada
+CANSC|Coser Screening Completed
+CANSE|New Coser Sent to Canada
+CECOM|CE Review Completed
+CEOFF|Offlined for CE Review
+CFBCOM|C/F Block Review Completed
+CG2COM|CGSA review completed
+CGSCOM|Alt CGSA study completed
+CIBCOM|CIB Action Completed
+CLICOF|Review pending App for removal of canceled license
+CLSCOM|Closed Bidding data Review Completed
+CMTCOM|T1/T2/T3 Commercial License Review Complete
+CNRCOM|Canada/Narrowbanding Review completed
+COMCOM|Compliance with Section 27.1203 Review Completed
+CONEX|Construction Date Extended
+COR|Internal Correction Applied
+CORADD|Internal Correction - License Added
+COVNT|Required Notification of Const/Coverage
+CPCOM|Review for CPOFF Completed
+CPLCOM|CP Location Review Completed
+CPOCOM|Review for CP OFF Air Completed
+CSACOM|Four-Letter Call Sign Assignment Complete
+CSPCOM|Coser Spec Cond Review (155.475 MHz) Completed
+CTACOM|Cable TV/Attributable Interest Review Completed
+CZCCOM|Coordination Zone Check Completed
+CZCOFF|Offlined for Coordination Zone Check
+CZRCOM|Canadian Zone Review Complete
+CZROFF|Offlined for Canadian Zone Review
+DBCOM|DO/DM Consolidation Review Complete
+DCIACO|DCIA FRN Review Completed
+DEMCOM|Demonstration Review Completed
+DEMOFF|Offlined for Demonstration Review
+DEVCOM|Developmental Review Completed
+DEVOFF|Offlined for Developmental Review
+DFTCOM|Review application for criteria of R&O FCC 05-144
+DIREV|Dismissed Application Reversed
+DMCCOM|Demonstration - Coser clearance closed
+DMMCOM|Demonstration - Coser manual offline closed
+DMZCOM|Demonstration - Coser clearance zone check closed
+DSHCOM|Manual Domestic MMSI Number Assignment Complete
+DTBCOM|Date of Birth Review Completed
+DTSCOM|Cable TV/Attributable Interest Review Completed
+DWVCOM|Waiver/Deferral of Fees Review Completed
+EDRCOM|Expiration Date Review Completed
+EFCAPR|Application receipt email failed: CORES email
+EFCFND|FRN Disassociation email failed: CORES email
+EFCFNR|FRN Re-association email failed: CORES email
+EFCFRN|FRN Association email failed: CORES email
+EFRCOM|Electronic Filing Review Completed
+EFROFF|Offline for Mandatory Electronic Filing Review
+EFUAPR|Application receipt email failed: ULS email
+EFUFND|FRN Disassociation email failed: ULS email
+EFUFNR|FRN Re-association email failed: ULS email
+EFUFRN|FRN Association email failed: ULS email
+EFURNW|ic Safety Renewal email failed: ULS email
+ELGCOM|Eligibility Review Completed
+ENFCOM|Enforcement Bureau Action Completed
+ENFOFF|Offlined for Enforcement Bureau Action
+ENGCOM|Engineering Review Completed
+ENGOFF|Offlined for Engineering Review
+ERPCOM|Radial ERP greater than 450 watts completed
+ESCAPR|Application receipt email sent: CORES email
+ESCFND|FRN Disassociation email sent: CORES email
+ESCFNR|FRN Re-association email sent: CORES email
+ESCFRN|FRN Association email sent: CORES email
+ESUAPR|Application receipt email sent: ULS email
+ESUFND|FRN Disassociation email sent: ULS email
+ESUFNR|FRN Re-association email sent: ULS email
+ESUFRN|FRN Association email sent: ULS email
+ESURNW|ic Safety Renewal email sent: ULS email
+EXCOM|Extension of Time Review Completed
+EXPCOM|Manual License Status Change Completed
+EXPOFF|Offlined for Manual License Status Change
+EXTCOM|Extended implementation review completed
+FCRCOM|Frequency Coordination Review Completed
+FCROFF|Offlined for Frequency Coordination Review
+FORCOM|Forbearance/Already Occurred Review Completed
+FRATRM|Frequency Terminated Through Auto Termination Proc
+FRCCOM|FRC_OP_Class Code/Endorsement review complete
+FRDCOM|Forbearance Date Review Completed
+FRSCOM|Invalid frequency/radio service review completed
+FVCOM|Fee Validation Completed
+FVDCOM|Fee Determination Completed
+FVDOFF|Offlined for Fee Determination
+FVPCNF|Payment Confirmed
+FVPCOM|Payment Verification Completed
+FVPOFF|Offlined for Payment Verification
+FXCOM|Faxed Attachment Review Completed
+GCOCOM|Review of Grant/Consumm Failure Completed
+GEOCOM|Geographic Overlap Review Completed
+GFRCOM|Grandfathered Station Review Completed
+GFROFF|Offlined for Grandfathered Station Review
+GMRCOM|GMRS Application Review Completed
+GRCOM|Grant Fail Review Completed
+GROFF|Review Application.Grant Failed.
+GRREV|Granted Application Reversed
+GSOCOM|GSO Review Completed
+GSOOFF|Offlined for GSO Review
+HFRCOM|HF Enroute/App 27 Review Completed
+HRGCOM|Hearing Review Completed
+HRGOFF|Offlined for Hearing
+IFRBRE|Received from IFRB
+INACOM|Inactive Call Sign Review Complete
+INSCOM|Installment Payment data Review Completed
+INTCOM|Location within 72 km of border completed
+INTDUP|Internal Duplicate Requested
+INVCOM|Involuntary/Invountary Date Review Completed
+IQCOM|Registered Location Coord Review Completed
+IRACC2|Condition 2 Received from IRAC
+IRACC3|Condition 3 Received from IRAC
+IRACCS|Cancel IRAC Sent
+IRACDW|Generate Dismissed or Withdrawn IRAC
+IRACFS|FAA/IRAC--Sent to OET
+IRACRC|Frequency offline review complete
+IRACRE|Received from IRAC
+IRACRO|Clearance returned from Irac with objection
+IRACRV|Offlined for Irac STA/Demonstration Review
+IRACSC|IRAC Screening Completed
+IRACSE|IRAC--Sent to OET
+IRAFRC|Forced Irac Review Completed
+IRAFRV|Review - Forced Irac Canceled Due to Major Mod
+IRAOFC|Offlined for Open Cancel AI on Inactive App Review
+ISHCOM|Manual Intl MMSI Number Assignment Complete
+LBOCOM|NT/EX Lower Buildout Untimely Filing Review Comple
+LDACOM|Licensing Division Analysis Completed
+LEASGE|Lease Generated
+LEAUA|Lease Administrative Update Applied
+LECAN|Lease Canceled
+LEEXP|Lease Status Set to Expired
+LEEXT|Lease Extention
+LEGCOM|Legal Review Completed
+LEGOFF|Offlined for Legal Review
+LEISS|Lease Issued
+LEMOD|Lease Modified
+LESLPR|Lease Letter Sent
+LETACS|Audit Cancellation Letter Sent
+LETATS|Audit Termination Letter Sent
+LETCAS|Cancellation Letter Sent
+LETCMS|Consummation Reminder Letter Sent
+LETCNS|Construction/Coverage Reminder Letter Sent
+LETCOS|Coser HIA Return Letter Sent
+LETDCS|Failure to Notify Dismissal Letter Sent
+LETDFS|Deleted Frequency Letter Sent
+LETDIS|Dismissal Letter Sent
+LETDLS|Unprocessable Dismissal Letter Sent for Live Money
+LETDUS|Unprocessable Dismissal Letter Sent
+LETERM|Lease Terminated
+LETGIS|Grant in Part Letter Sent
+LETLTS|License Termination Letter Sent
+LETNNS|Aircraft Termination Letter Sent
+LETRAN|Lease Transferred
+LETREG|Generate Renewal Reminder Letter
+LETRES|Renewal Reminder Letter Sent
+LETRTS|Return Letter Sent
+LETRUS|Unprocessable Return Letter Sent
+LETSTS|Ship Termination Letter Sent
+LETTRS|License Auto Termination Letter Sent
+LEXCOM|Expired License Review Complete
+LEXOFF|Offlined for Expired License Review
+LIASS|License Assigned (Full Assignment)
+LIAUA|Administrative Update Applied
+LICAN|License Canceled
+LICARE|License Cancellation Reversed
+LICCNV|License Converted
+LIDUP|Duplicate Authorization Generated
+LIEXP|License Status Set to Expired
+LIISS|License Issued
+LIMOD|License Modified
+LIPASS|License Assigned (Partial Assignment)
+LIPND|License Assigned (Partition/Disaggregation)
+LIPPND|License Issued from a Partial/P&D Assignment
+LIREN|License Renewed
+LIRIN1|License reinstated-parent station was un-canceled
+LIRIN2|License reinstated-parent station was undismissed
+LITEAT|License Terminated by Auto Term Process
+LITERE|License Termination Reversed
+LITERM|License Terminated
+LITIN|License TIN Added
+LITRAN|License Transferred
+LMNCOM|Licensee Name Mismatch Review Complete
+LMNOFF|Offlined for Licensee Name Mismatch
+LMSCOM|LMS Review Completed
+LNMCOM|Licensee name change review completed
+LNMOFF|Licensee name changed in CDBS
+LOATRM|Location Terminated Through Auto Termination Proce
+LOCCOM|Location Review Completed
+LOCOFF|Offlined for Location Review
+LSLCOM|P&D of Leased Services Review Completed
+LTSAPR|Application Receipt Letter sent
+LTSFND|FRN Disassociation Letter sent
+LTSFNR|FRN Re-association Letter sent
+LTSFRN|FRN Association Letter sent
+MAPCOM|603/608 Map Upload Review Completed
+MARCOM|RO/RM Market application review complete
+MAROFF|Offlined for RO/RM Market application review
+MCCOM|MC - FC Cancellation Review Completed
+MDONC|"This Call Sign previously P&Ded, review channels"
+MDRCOM|Mail Delivery Review Completed
+MEXCOM|Mexico Coordination Review Completed
+MEXOFF|Offlined for Mexico Coordination
+MEXRE|Received from Mexico
+MJCOM|Major Amendment Review Completed
+MJREV|Offlined for Major Amendment Review
+MMBCOM|MMB Referral Completed
+MMBOFF|Offlined for MMB Referral
+MMCOM|Multiple Mod (Conflict) Review Completed
+MMMCOM|Major Merger Review Completed
+MMMOFF|Offlined for Major Merger Review
+MMOFF|Offlined for Multiple Mod (Conflict) Review
+MMWCOM|Merger Review Completed
+MMWOFF|Offlined for Merger Review
+MOBCOM|Mobile Count Review Completed
+MOBOFF|Offlined for Mobile Count
+MODCOM|Offlined for Change in Receive Location Closed
+MODFLD|Assignor modified a callsign - Recheck frequencies
+MODOFF|Offlined for Change in Receive Location
+MRSCOM|NT/EX Multiple Private/Commercial Review Complete
+MRSOFF|Offlined for NT/EX Multiple Priv/Comm Review
+MTSCOM|MTS Completed
+MTSOFF|Offlined for MTS
+MULCOM|MULTICOM Review Completed
+MWLCOM|MW Link Transmit and Receive Coordinates verificat
+MXCOM|MX Processing Completed
+MXNCOM|Mutually Exclusive Review (no rules) Completed
+MXRCOM|Mutually Exclusive Review (rules) Completed
+MZRCOM|Mexican Zone Review Complete
+MZROFF|Offlined for Mexican Zone Review
+NEPCOM|NEPA Review Completed
+NEPOFF|Offlined for NEPA Review
+NNCOM|N-Number Conflict with Amateur Call Sign Review Co
+NPCOM|Northern Pacific Review Completed
+NTACOM|NT/EX Amendment Review Completed
+NTAOFF|Offlined for NT/EX Amendment Review
+NTBCOM|NT Buildout Deadline Review completed
+NTECOM|NT/EX Error Review Complete
+NTEOFF|Offlined for NT/EX Error Review
+NTGCOM|NT Grant Hold Review Complete
+NTGOFF|Offlined for NT Grant Hold
+NTICOM|NTIA Coordination Review Completed
+NWACOM|Non-Wireless Activity Review Completed
+PAATRM|Path Terminated Through Auto Term Process
+PARREB|"Parent Station, Once Silent, Is Broadcasting Again"
+PARSIL|Parent Station Went Silent
+PCCOM|Private/Commercial Review Completed
+PCECOM|Review of Pre-Canada Errors Completed
+PCEOFF|Review Pre-Canada Errors
+PCKCOM|Pack Review Completed
+PCKOFF|Offlined for Pack Review
+PCRCOM|Public Coast Review Completed
+PFCOM|Public Fixed Review Completed
+PFDCOM|Review of PFD at Border Completed
+PFDOFF|Offline for PFD at Border Review
+PFRCL|Petition for Reconsideration Period Closed
+PFRCOM|Petition for Reconsideration Review Completed
+PFRRE|Petition for Reconsideration Received
+PH2COM|Review of Phase 2 application completed
+PLAUPR|Paperless Authorization Printed
+PLRRPR|Paperless Renewal Reminder Letter
+PMTCOM|Installment Payment Review Completed
+PNACC|Accepted for Filing PN Generated
+PNACT|Action PN Generated
+PNLIMR|Market Based Auto Term PN Generated
+PNLISR|Site Based Auto Term PN Generated
+PRCOM|Puerto Rico Review Completed
+PRCOM2|Puerto Rico Review Completed
+PROFF|Offlined for Notification from Puerto Rico
+PTDCOM|Petition to Deny Review Completed
+PUBCOM|Part 90 Public Safety Services Review Completed
+PWVCOM|Grand/waiver/func integ question review completed
+PWVOFF|"Checked Y to grand/waiver/func integ question 8c"""
+QZCOM|NRAO/NRRO Review Completed
+QZCOM2|NRAO/NRRO Review Completed
+QZNCOM|Quiet Zone Notification Completed
+QZNOFF|Waiting for Quiet Zone Notification
+QZOFF|Offlined for Notification from NRAO/NRRO
+QZOFF2|Waiting for Notification from NRAO/NRRO
+QZRVC|Review of Quiet Zone Attribute Change Completed
+QZRVW|Offlined for Review of Quiet Zone Attribute Change
+RCDUP|Reference Copy Duplicate Requested
+RCSCOM|Receiver Call Sign Review Completed
+RCSOFF|Offlined for Receiver Call Sign Review
+RDLCOM|Redlight Review Completed
+RDLOFF|Offlined for Red Light
+RECAM|Amendment Received
+RECAU|Administrative Update Received
+RECCA|Cancellation of License Received
+RECCHK|Offlined For Coser Recon Check
+RECCOM|Coser Recon Check Completed
+RECDC|Data Correction Application Applied
+RECDU|Duplicate License Request Received
+RECEX|Request for Extension of Time Received
+RECMD|Modification Received
+RECMJ|Major Modification Received
+RECNE|New Application Received
+RECNT|Required Notification Received
+RECRL|Registration of Location/Link Received
+RECRM|Renewal/Modification Received
+RECRO|Renewal Only Received
+RECWD|Withdrawal of Application Received
+REGCOM|Regulatory Status Review Complete
+RLMCOM|Rulemaking Decision Completed
+RLMOFF|Offlined for Rulemaking
+RLOFF|Offlined for Link/Location Review
+RLPR|Registration Letter Printed
+RMCOM|Renewal/Mod Review Completed
+RMOFF|Offlined for Renewal/Mod Review
+ROBCOM|Renewal: Buildout Deadline Review Completed.
+ROMCOM|Untimely filed RO/RM Review Completed
+ROMOFF|Offlined for Untimely filed RO/RM Review
+RONCOM|RO: Pending NT Review completed.
+ROXCOM|RO: Pending EX Review completed.
+RSCCOM|Radio Service Review Completed
+RSCOFF|Offlined for Radio Service Review
+RSPCOM|Reduced Service Providers Review Completed
+RTPEND|Returned to Pending
+SABCOM|Radial data height-power limit review completed
+SBCCOM|ML Bidding Credit Eligibility Review Completed
+SBGCOM|Radial data height-power limit review completed
+SCBCOM|ML Closed Bidding Eligibility Review Completed
+SCCOM|Southern California Review Completed
+SCHCOM|Four-Letter Call Sign Review Complete
+SCRCOM|Manual Domestic MMSI Number Assignment Complete
+SCSCOM|Subscriber Call Sign Review Completed
+SDACOM|Additional SID review completed
+SDNCOM|New SID review completed
+SECCOM|Offline for compliance with Section 20.9 completed
+SGACOM|Review of Slow Growth - Application - Completed
+SGLCOM|Review of Slow Growth - License - Completed
+SHXCOM|Ship Exemption Review Complete
+SIPCOM|ML Installment Payment Elig Review Completed
+SLPEXC|Streamline Processing Exclusivity Review Completed
+SMBCOM|SMR Buildout Review Completed
+SMICOM|Review of SMR Special Conditions Completed
+STACCZ|STA - Coser clearance zone check was not created
+STACGE|STA - Coser clearance was not created
+STACOM|STA Review Completed
+STAOFF|Offlined for STA Review
+STBCOM|Bill for Emergency STA Completed
+STBOFF|Offlined to Bill for Emergency STA
+STCCOM|STA - Coser clearance closed
+STLCOM|Short Term Lease Expiration Date Review Completed
+STMCOM|STA - Coser manual offline closed
+STZCOM|STA - Coser clearance zone check closed
+TACOM|TowAir Check Completed
+TBCCOM|TL Bidding Credit Status Review Completed
+TCBCOM|TL Closed Bidding Status Review Completed
+TCCOM|Tower Tolerance Check Completed
+TCRCOM|TLBC Coverage Requirement Completed
+TCREVC|Terminated Component Review Completed
+TINCOM|TIN/Name Verification Completed
+TINOFF|Offlined for TIN/Name Verification
+TIPCOM|TL Installment Payment Status Review Completed
+TLBCOM|Tribal Land Bidding Credit Review Completed
+TLSCOM|short term De Facto Transfer Leases verification c
+TOWCOM|Review of 47 C.F.R. 17.7(e)(1) completed
+TOWGCM|Failed Grant-Time Tower Clearance Check Completed
+TOWOFF|Offlined for review of 47 C.F.R. 17.7(e)(1)
+TOWRE|Received from Tower
+TOWSE|Sent to Tower
+TPECOM|Term Pending Exclusion Review Completed
+TPRCOM|Term Pending Review Completed
+UCFCOM|Untimely Constructed/Filed Review Completed
+UCFOFF|Offlined for Untimely Constructed/Filed Review
+UCOCOM|Untimely Construction Review Completed
+UCOOFF|Offlined for Untimely Construction Review
+UMRCOM|Utility Mobile Review Completed
+UNCOM|UNICOM Review Completed
+UNECOM|Unicom Eligibility Review Completed
+VANCOM|Schedule D Eligibility A or C review completed
+VRCOM|RO Vanity Review Completed
+WACOM|Other Wireless Activity Review Completed
+WAVCOM|Wavier Review Completed
+WAVOFF|Offlined for Waiver Review
+WDREV|Withdrawn Application Reversed
+WNTCOM|NT Waiver Removal Review Complete
+WRECOM|Waiver Renewal- 30 days Review Completed
+WREOFF|Offlined for Renewal Waiver- 30 days Review
+WSCCOM|Wavier Special Condition Review Completed
+XBRCOM|Transborder Coordination Completed
+XBROFF|Offlined for Transborder Coordination
+SYSGRT|System Granted
+VANGRT|Vanity Granted
