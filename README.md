@@ -15,7 +15,7 @@ Assumptions
 Quick Start
 ----------------------
 
-```python 
+``` 
     python .\fcc_uls_callsign_search.py
 
     ULS Zip file not found.
@@ -50,6 +50,14 @@ History:
 Date: 10/24/2020, FRN: 0030015242, Entity: Henson, Jacob B, License Issued(LIISS )
 Date: 10/24/2020, FRN: 0030015242, Entity: Henson, Jacob B, None(VANGRT)
 Date: 05/25/2016, FRN: 0004436366, Entity: Tate, Harold L, License Status Set to Expired(LIEXP )
+
+
+Callsign: K1SSY
+==================
+Group: C, Available To: Technician, Tech Plus. & General Class
+
+History: None, K1SSY Probably Available
+
 ```
 
 Use Option 2 to run a search for each callsign in [callsign_input.txt](callsign_input.txt)

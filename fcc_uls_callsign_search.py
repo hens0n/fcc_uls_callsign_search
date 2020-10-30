@@ -97,6 +97,8 @@ def search(db, input):
         rtn += 'History: \n'
         rtn += '------------------\n'
         rtn += history +'\n'
+    else:
+        rtn += 'History: None, {} Probably Available\n'.format(cs.callsign)
 
     return rtn
 
